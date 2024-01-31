@@ -8,7 +8,7 @@ console.log(blogData);
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header blogName={blogData.name} />
       <About blogImg={blogData.image} blogText={blogData.about} />
       <Articlelist posts={blogData.posts} />
